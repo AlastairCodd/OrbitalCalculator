@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Page Remove="Infrastructure\App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="Infrastructure\App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="ninject.extensions.conventions" Version="3.3.0" />
+    <PackageReference Include="Ninject.Extensions.Factory" Version="3.3.3" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="1.4.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.Trace" Version="2.1.0" />
+    <PackageReference Include="SerilogTimings" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Skade.CrossCutting.Common\Skade.CrossCutting.Common.csproj" />
+    <ProjectReference Include="..\Skade.CrossCutting.Core\Skade.CrossCutting.Core.csproj" />
+    <ProjectReference Include="..\Skade.CrossCutting.Localiser.Common\Skade.CrossCutting.Localiser.Common.csproj" />
+    <ProjectReference Include="..\Skade.CrossCutting.Localiser.Core\Skade.CrossCutting.Localiser.Core.csproj" />
+    <ProjectReference Include="..\Skade.CrossCutting.Messenger.Common\Skade.CrossCutting.Messenger.Common.csproj" />
+    <ProjectReference Include="..\Skade.CrossCutting.Messenger.Core\Skade.CrossCutting.Messenger.Core.csproj" />
+    <ProjectReference Include="..\Skade.CrossCutting.Resources\Skade.CrossCutting.Resources.csproj" />
+    <ProjectReference Include="..\Skade.OrbitCalculator.ViewModels\Skade.OrbitCalculator.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

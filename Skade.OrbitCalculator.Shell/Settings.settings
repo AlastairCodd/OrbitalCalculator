@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Skade.OrbitCalculator.Shell" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LogEventLevelSetting" Type="Serilog.Events.LogEventLevel" Scope="User">
+      <Value Profile="(Default)">Verbose</Value>
+    </Setting>
+    <Setting Name="LastProjectEntity" Type="Skade.CrossCutting.Core.Entities.ProjectSerializerEntity" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skade.Shell", "Skade.Shell", "{B6A293AB-61E2-45E9-A79E-32DAA13C0784}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skade.OrbitCalculator.Shell", "Skade.OrbitCalculator.Shell\Skade.OrbitCalculator.Shell.csproj", "{093A8C9D-5EA8-412B-8775-1A4974367B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross Cutting", "Cross Cutting", "{A82C78B2-1AB1-4241-821A-2ACB7B440525}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skade.CrossCutting.Core", "Skade.CrossCutting.Core\Skade.CrossCutting.Core.csproj", "{7B48056B-EFEC-4054-83A7-9EA97E029B5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skade.CrossCutting.Resources", "Skade.CrossCutting.Resources\Skade.CrossCutting.Resources.csproj", "{23AFBF0B-FBD4-47D7-A84C-D2DAB649A9D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skade.CrossCutting.Messenger.Core", "Skade.CrossCutting.Messenger.Core\Skade.CrossCutting.Messenger.Core.csproj", "{94B72AC4-7D19-4504-B638-D8509E99D4C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skade.CrossCutting.Messenger.Common", "Skade.CrossCutting.Messenger.Common\Skade.CrossCutting.Messenger.Common.csproj", "{2B5FE4FC-5484-4E1D-A64F-46E0C43FCCE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buisness Logic", "Buisness Logic", "{2ADD7D8B-5E33-437A-9731-A3E6AE470F63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skade.OrbitCalculator.ViewModels", "Skade.OrbitCalculator.ViewModels\Skade.OrbitCalculator.ViewModels.csproj", "{2F6CD3D3-DCAF-465C-8471-7C581FE85D1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skade.CrossCutting.Common", "Skade.CrossCutting.Common\Skade.CrossCutting.Common.csproj", "{7B68A0F1-7EDA-4E30-8D8B-AE5AB628CE33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skade.CrossCutting.Localiser.Common", "Skade.CrossCutting.Localiser.Common\Skade.CrossCutting.Localiser.Common.csproj", "{0615222A-CA94-491B-9F5C-A1AF71513018}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skade.CrossCutting.Localiser.Core", "Skade.CrossCutting.Localiser.Core\Skade.CrossCutting.Localiser.Core.csproj", "{2904407C-4C13-4559-9AF7-CBF819B89B5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{093A8C9D-5EA8-412B-8775-1A4974367B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093A8C9D-5EA8-412B-8775-1A4974367B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093A8C9D-5EA8-412B-8775-1A4974367B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093A8C9D-5EA8-412B-8775-1A4974367B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B48056B-EFEC-4054-83A7-9EA97E029B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B48056B-EFEC-4054-83A7-9EA97E029B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B48056B-EFEC-4054-83A7-9EA97E029B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B48056B-EFEC-4054-83A7-9EA97E029B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23AFBF0B-FBD4-47D7-A84C-D2DAB649A9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AFBF0B-FBD4-47D7-A84C-D2DAB649A9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AFBF0B-FBD4-47D7-A84C-D2DAB649A9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AFBF0B-FBD4-47D7-A84C-D2DAB649A9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B72AC4-7D19-4504-B638-D8509E99D4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B72AC4-7D19-4504-B638-D8509E99D4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B72AC4-7D19-4504-B638-D8509E99D4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B72AC4-7D19-4504-B638-D8509E99D4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5FE4FC-5484-4E1D-A64F-46E0C43FCCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5FE4FC-5484-4E1D-A64F-46E0C43FCCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5FE4FC-5484-4E1D-A64F-46E0C43FCCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5FE4FC-5484-4E1D-A64F-46E0C43FCCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6CD3D3-DCAF-465C-8471-7C581FE85D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6CD3D3-DCAF-465C-8471-7C581FE85D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6CD3D3-DCAF-465C-8471-7C581FE85D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6CD3D3-DCAF-465C-8471-7C581FE85D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B68A0F1-7EDA-4E30-8D8B-AE5AB628CE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B68A0F1-7EDA-4E30-8D8B-AE5AB628CE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B68A0F1-7EDA-4E30-8D8B-AE5AB628CE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B68A0F1-7EDA-4E30-8D8B-AE5AB628CE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0615222A-CA94-491B-9F5C-A1AF71513018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0615222A-CA94-491B-9F5C-A1AF71513018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0615222A-CA94-491B-9F5C-A1AF71513018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0615222A-CA94-491B-9F5C-A1AF71513018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2904407C-4C13-4559-9AF7-CBF819B89B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2904407C-4C13-4559-9AF7-CBF819B89B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2904407C-4C13-4559-9AF7-CBF819B89B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2904407C-4C13-4559-9AF7-CBF819B89B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{093A8C9D-5EA8-412B-8775-1A4974367B2A} = {B6A293AB-61E2-45E9-A79E-32DAA13C0784}
+		{7B48056B-EFEC-4054-83A7-9EA97E029B5F} = {A82C78B2-1AB1-4241-821A-2ACB7B440525}
+		{23AFBF0B-FBD4-47D7-A84C-D2DAB649A9D8} = {A82C78B2-1AB1-4241-821A-2ACB7B440525}
+		{94B72AC4-7D19-4504-B638-D8509E99D4C0} = {A82C78B2-1AB1-4241-821A-2ACB7B440525}
+		{2B5FE4FC-5484-4E1D-A64F-46E0C43FCCE4} = {A82C78B2-1AB1-4241-821A-2ACB7B440525}
+		{2F6CD3D3-DCAF-465C-8471-7C581FE85D1A} = {2ADD7D8B-5E33-437A-9731-A3E6AE470F63}
+		{7B68A0F1-7EDA-4E30-8D8B-AE5AB628CE33} = {A82C78B2-1AB1-4241-821A-2ACB7B440525}
+		{0615222A-CA94-491B-9F5C-A1AF71513018} = {A82C78B2-1AB1-4241-821A-2ACB7B440525}
+		{2904407C-4C13-4559-9AF7-CBF819B89B5C} = {A82C78B2-1AB1-4241-821A-2ACB7B440525}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {389EC07E-683D-45F8-98B7-1CB265128A7D}
+	EndGlobalSection
+EndGlobal

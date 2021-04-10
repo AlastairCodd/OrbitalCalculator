@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfLocalizeExtension" Version="3.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Skade.CrossCutting.Core\Skade.CrossCutting.Core.csproj" />
+    <ProjectReference Include="..\Skade.CrossCutting.Localiser.Core\Skade.CrossCutting.Localiser.Core.csproj" />
+    <ProjectReference Include="..\Skade.CrossCutting.Messenger.Common\Skade.CrossCutting.Messenger.Common.csproj" />
+    <ProjectReference Include="..\Skade.CrossCutting.Messenger.Core\Skade.CrossCutting.Messenger.Core.csproj" />
+  </ItemGroup>
+
+</Project>
